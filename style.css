@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.3;
+  color: #000;
+  /* background-color: #333; */
+}
+
+nav {
+  display: flex;
+  background-color: #333;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px;
+}
+
+.nav-container h1 {
+  font-size: 40px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  /* gap works for only parent elements */
+  /* gap: 20px; */
+}
+
+.nav-list li {
+  margin: 20px;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list a:active {
+  /* color: #333; */
+}
+
+.nav-list a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about {
+  border-bottom: 3px solid #fff;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 130px;
+  background-color: #fff;
+}
+
+.line-top {
+  margin: auto;
+  width: 810px;
+  height: 1.5px;
+  background-color: rgb(124, 121, 121);
+  margin-bottom: 30px;
+}
+
+.line-bottom {
+  margin: auto;
+  width: 110px;
+  height: 1.5px;
+  background-color: rgb(124, 121, 121);
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.elo-logo {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.line-top-1 {
+  margin: auto;
+  width: 110px;
+  height: 1.5px;
+  background-color: rgb(124, 121, 121);
+  /* margin-top: 10px; */
+  /* margin-bottom: 50px; */
+}
+
+.line-bottom-1 {
+  margin: auto;
+  width: 810px;
+  height: 1.5px;
+  background-color: rgb(124, 121, 121);
+  margin-top: 50px;
+}
+
+.excellence {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 0.9;
+  letter-spacing: none;
+  margin-bottom: 50px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50px;
+  background-color: rgb(187, 184, 184);
+  cursor: pointer;
+  border: none;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+.heading {
+  font-size: 25px;
+}
+
+.heading-paragraph {
+  margin-top: 11px;
+  font-size: 25px;
+}
+
+.p-1 {
+  margin-bottom: 40px;
+}
+
+.p-2 {
+  margin-bottom: 40px;
+}
+
+.p-3 {
+  margin-bottom: 70px;
+}
+
+.btn-top {
+  margin: auto;
+  width: 110px;
+  height: 1.4px;
+  background-color: rgb(124, 121, 121);
+  margin-bottom: 30px;
+}
+
+.dots-1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.dot-1 {
+  height: 5px;
+  width: 5px;
+  border-radius: 50px;
+  background-color: rgb(187, 184, 184);
+  cursor: pointer;
+  border: none;
+  margin-top: 50px;
+}
+
+.btn-bottom {
+  margin: auto;
+  width: 110px;
+  height: 1.5px;
+  background-color: rgb(124, 121, 121);
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+.footer-1 {
+  margin-left: 300px;
+}
+
+.icon {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 70px;
+}
+
+.icon-1 {
+  background-color: palevioletred;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.icon-2 {
+  background-color: rgb(129, 129, 194);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.icon-3 {
+  background-color: rgb(46, 46, 201);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.footer-1 p {
+  color: rgb(73, 73, 73);
+  margin-bottom: 20px;
+}
+
+.footer-1 a:link,
+.footer-1 a:visited {
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+}

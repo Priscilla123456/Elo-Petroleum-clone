@@ -1,0 +1,319 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.3;
+  background-color: #fff;
+  color: #000;
+  /* font-family: sans-serif; */
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.main-container {
+  position: relative;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  background-color: #333;
+  /* width: 1020px; */
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px;
+  margin-bottom: 600px;
+}
+
+.nav-container h1 {
+  font-size: 40px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  /* gap works for only parent elements */
+  /* gap: 20px; */
+}
+
+.nav-list li {
+  margin: 20px;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list a:active {
+  /* color: #333; */
+}
+
+.nav-list a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about-us {
+  background-color: #c0a47f;
+  color: white;
+  font-weight: bold;
+  padding: 16px 24px;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 350px;
+  left: 600px;
+}
+
+.about-us a:link {
+  text-decoration: none;
+}
+
+.about-us a:visited {
+  color: white;
+}
+
+.about-us:hover {
+  background-color: antiquewhite;
+}
+
+.home {
+  border-bottom: 3px solid #fff;
+}
+
+.about {
+  border-bottom: 3px solid #fff;
+}
+
+.our {
+  border-bottom: 3px solid #fff;
+}
+
+.us {
+  border-bottom: 3px solid #fff;
+}
+
+.elo-logo img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.line-welcome {
+  margin-bottom: 80px;
+}
+
+.line-top {
+  margin: auto;
+  width: 110px;
+  height: 1px;
+  background-color: rgb(196, 196, 196);
+  margin-bottom: 30px;
+}
+
+.welcome {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.line-bottom {
+  margin: auto;
+  width: 110px;
+  height: 1px;
+  background-color: rgb(226, 202, 202);
+  margin-top: 30px;
+}
+
+.about-service {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 90px;
+
+  /* margin-left: 100px; */
+}
+
+.about-service h2 {
+  margin-bottom: 35px;
+  font-size: 30px;
+}
+
+.about-service img {
+  margin-bottom: 20px;
+}
+
+.about-service p {
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+.service-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 200px;
+}
+
+.service-value h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.service-value li {
+  font-size: 25px;
+  margin-left: 35px;
+}
+
+.service-value p {
+  border-left: 5px solid burlywood;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.contact {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.parent-form {
+  margin-bottom: 40px;
+  margin-left: 300px;
+}
+
+.label-input {
+  font-family: sans-serif;
+}
+
+.label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-1 {
+  width: 400px;
+  height: 70px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border-width: 0.1px;
+  border-color: rgb(214, 211, 211);
+}
+
+.input-2 {
+  width: 600px;
+  height: 80px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  border-width: 0.1px;
+  border-color: rgb(214, 211, 211);
+}
+
+.input-3 {
+  width: 600px;
+  height: 200px;
+  border-radius: 5px;
+  border-width: 0.1px;
+  border-color: rgb(214, 211, 211);
+}
+
+.btn {
+  margin-left: 300px;
+  padding: 10px 140px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 3px solid burlywood;
+  margin-bottom: 70px;
+  color: burlywood;
+  background-color: white;
+  margin-bottom: 70px;
+}
+
+.btn:link,
+.btn:visited {
+  color: burlywood;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: rgb(202, 199, 199);
+  border-color: rgb(202, 199, 199);
+  cursor: pointer;
+}
+
+.btn:active {
+  font-weight: bold;
+}
+
+.main {
+  background-color: rgb(223, 238, 238, 255);
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.footer-1 {
+  margin-left: 300px;
+  /* width: 1125px; */
+}
+
+.footer-1 h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.icon {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 70px;
+}
+
+.icon-1 {
+  background-color: palevioletred;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.icon-2 {
+  background-color: rgb(129, 129, 194);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.icon-3 {
+  background-color: rgb(46, 46, 201);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.footer-1 p {
+  color: rgb(73, 73, 73);
+  margin-bottom: 20px;
+}
+
+.footer-1 a:link,
+.footer-1 a:visited {
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+}
