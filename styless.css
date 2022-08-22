@@ -46,16 +46,16 @@ nav {
   cursor: pointer;
 }
 
-.our {
+.our-services {
   border-bottom: 3px solid #fff;
 }
 
-.our h1 {
-  text-align: center;
+.our-services h1 {
+  margin-left: 350px;
   font-size: 50px;
   font-weight: bold;
   margin-top: 60px;
-  margin-bottom: 130px;
+  margin-bottom: 70px;
   background-color: #fff;
 }
 
